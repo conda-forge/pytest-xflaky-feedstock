@@ -1,5 +1,5 @@
 {% set name = "pytest-xflaky" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_xflaky-{{ version }}.tar.gz
-  sha256: 0bf429c70afd24fd89fd49d030c043d9f379502b90283ab0cd1b19937ae56d3c
+  sha256: c5341021a47169a12975811b95809eada682a9ae33cfa93402b1c3499164efbe
 
 build:
   noarch: python
